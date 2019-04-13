@@ -6,6 +6,9 @@ cache:
     - node_modules
 script:
   - npm run test-coverage
+  - npm run build
+after_success:
+  - ./deploy.sh
 # safelist
 branches:
   only:
