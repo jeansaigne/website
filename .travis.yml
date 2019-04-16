@@ -18,4 +18,4 @@ deploy:
   provider: script
   script: bash deployment/deploy.sh
   on:
-    branch: feat/bullshit
+    branch: master

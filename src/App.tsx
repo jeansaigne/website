@@ -9,10 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 	        <ul>
-		        <li>Dockerized</li>
-		        <li>Watchtower on</li>
-		        <li>Partial automagic deploy</li>
-		        <li>from script</li>
+		        <li>Automagic done !</li>
 	        </ul>
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
