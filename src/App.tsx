@@ -12,6 +12,7 @@ class App extends Component {
 		        <li>Dockerized</li>
 		        <li>Watchtower on</li>
 		        <li>Partial automagic deploy</li>
+		        <li>from script</li>
 	        </ul>
           <p>
             Edit <code>src/App.tsx</code> and save to reload.

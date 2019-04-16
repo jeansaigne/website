@@ -10,20 +10,11 @@ cache:
     - node_modules
     - build
 script:
-  - npm run build
-  - docker build . -t jeansaigne/website:latest
-  - echo "$REGISTRY_PASSWORD" | docker login -u "$REGISTRY_USERNAME" --password-stdin
-  - docker push jeansaigne/website:latest
 #  - npm run test-coverage
+  - npm run build
 
 deploy:
   provider: script
   script: bash deployment/deploy.sh
   on:
     branch: feat/bullshit
-    
-#docker login
-#docker pull
-#docker-compose kill website
-#docker-compose rm websi
-#docker-compose up -d websie
